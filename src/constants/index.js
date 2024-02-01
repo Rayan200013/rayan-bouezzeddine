@@ -4,25 +4,27 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  parkInnovation,
+  brava,
+  freelancer,
+  Fifteenology,
+  ishop,
+  Mysql,
+  Sql,
+  Bootstrap,
+  MaterialUI,
 } from "../assets";
 
 export const navLinks = [
@@ -72,21 +74,23 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "Bootstrap",
+    icon: Bootstrap,
+  },
+  {
+    name: "MaterialUI",
+    icon: MaterialUI,
   },
   {
     name: "Node JS",
@@ -97,9 +101,14 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Mysql",
+    icon: Mysql,
   },
+  {
+    name: "sql",
+    icon: Sql,
+  },
+
   {
     name: "git",
     icon: git,
@@ -108,17 +117,13 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
     title: "Junior Developer",
     company_name: "Brava 360 Digital",
-    icon: starbucks,
+    icon: brava,
     iconBg: "#383E56",
     date: "July 2023 - Present",
     points: [
@@ -132,7 +137,7 @@ const experiences = [
   {
     title: "Front-End Developer",
     company_name: "Fifteenology",
-    icon: tesla,
+    icon: Fifteenology,
     iconBg: "#E6DEDD",
     date: "November 2023 - January 2024",
     points: [
@@ -145,7 +150,7 @@ const experiences = [
   {
     title: "Full Stack Development Trainee ",
     company_name: "Park Innovation",
-    icon: shopify,
+    icon: parkInnovation,
     iconBg: "#383E56",
     date: "June 2023 - October 2023",
     points: [
@@ -159,7 +164,7 @@ const experiences = [
   {
     title: "Website Developer ",
     company_name: "Freelance",
-    icon: meta,
+    icon: freelancer,
     iconBg: "#E6DEDD",
     date: "Jan 2022 - Present",
     points: [
@@ -172,7 +177,7 @@ const experiences = [
   {
     title: "IT-SUPPORT  ",
     company_name: "ISHOP",
-    icon: meta,
+    icon: ishop,
     iconBg: "#E6DEDD",
     date: "August 2021 - August 2022",
     points: [

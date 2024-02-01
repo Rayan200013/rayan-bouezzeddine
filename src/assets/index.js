@@ -30,6 +30,18 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import parkInnovation from "./company/parkInnovation.png";
+import brava from "./company/brava360digital.png";
+import freelancer from "./company/freelancer.png";
+import Fifteenology from "./company/Fifteenology.jpeg";
+import ishop from "./company/iShop.jpg";
+import Mysql from "./tech/mysql.png";
+import Sql from "./tech/SQL.png";
+import php from "./tech/php.jpg";
+import jquery from "./tech/jquery.png";
+import Bootstrap from "./tech/Bootstrap.png";
+import MaterialUI from "./tech/MaterialUI.png";
+
 export {
   logo,
   backend,
@@ -59,4 +71,15 @@ export {
   carrent,
   jobit,
   tripguide,
+  parkInnovation,
+  brava,
+  freelancer,
+  Fifteenology,
+  ishop,
+  Mysql,
+  Sql,
+  jquery,
+  Bootstrap,
+  MaterialUI,
+  php,
 };
