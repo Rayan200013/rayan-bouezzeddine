@@ -26,6 +26,7 @@ import {
   Bootstrap,
   MaterialUI,
 } from "../assets";
+import { avatar } from "../assets/clients";
 
 export const navLinks = [
   {
@@ -192,18 +193,18 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "A great Candidate that dedicated his time to work  with me. He was very professional and responsive.",
+    name: "Firas Abo Fadel",
+    designation: "CEO",
+    company: "Fiftechnology",
+    image: avatar,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I've never met a web developer who truly cares about their clients' success like rayan bouezzeddine.",
+    name: "Gloria Hanna",
+    designation: "Development Manager",
+    company: "Freshco ",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
@@ -218,67 +219,71 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Quiqpay App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Engineered a React app for internet providers, streamlining user transactions with personalized links for enhanced purchasing experiences.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "Material UI",
+        color: "pink-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "VS Code",
+        color: "green-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Rayan200013/quiqpay-app",
   },
   {
-    name: "Job IT",
+    name: "Freshco Lebanon",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Designed FreshCoLebanon to elevate the presentation of fresh fruit products in Lebanon, driving increased sales through an engaging platform.",
     tags: [
       {
-        name: "react",
+        name: "Wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Woo commerce",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://freshcolebanon.com",
   },
   {
-    name: "Trip Guide",
+    name: "Allez retour",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed 'Allez Retour' as a senior project for Park Innovation, catering to users exploring destinations in Shouf, providing valuable insights and information.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Express.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mysql",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Rayan200013/mern-final-project/",
   },
 ];
 

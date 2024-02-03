@@ -78,13 +78,9 @@ const Works = () => {
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          className='mt-3 text-secondary text-[17px] max-w-10xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          Welcome to my portfolio, where I showcase a diverse range of web projects reflecting my dedication to delivering top solutions. Each project is a real-world example of my skills and experience, highlighting my ability to solve complex problems, work with cutting-edge technologies, and manage projects effectively. Explore these creations, accompanied by brief descriptions, code repositories, and live demos, to witness the seamless fusion of creativity, technology, and strategic SEO practices.
         </motion.p>
       </div>
 
