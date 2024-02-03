@@ -196,7 +196,7 @@ const testimonials = [
       "A great Candidate that dedicated his time to work  with me. He was very professional and responsive.",
     name: "Firas Abo Fadel",
     designation: "CEO",
-    company: "Fiftechnology",
+    company: "Fifteenology",
     image: avatar,
   },
   {
@@ -205,15 +205,15 @@ const testimonials = [
     name: "Gloria Hanna",
     designation: "Development Manager",
     company: "Freshco ",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: avatar,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Rayan optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: avatar,
   },
 ];
 
